@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://y7rd481xr7e0"]
+
+[ext_resource type="Script" path="res://Weapons/hitscan_weapon.gd" id="1_i7x2t"]
+
+[node name="HitscanWeapon" type="Node3D"]
+script = ExtResource("1_i7x2t")
+
+[node name="CooldownTimer" type="Timer" parent="."]
+one_shot = true
+
+[node name="RayCast3D" type="RayCast3D" parent="."]
+target_position = Vector3(0, 0, -100)
