@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AmmunitionType" load_steps=2 format=3 uid="uid://dcyeakftcfr47"]
+
+[ext_resource type="Script" path="res://Helpers/Models/ammunition_type.gd" id="1_xg2qe"]
+
+[resource]
+script = ExtResource("1_xg2qe")
+name = "9x19 FMJ"
+caliber = 0
+armor_penetration = 25
+damage = 25
+weight = 8
+price = 0.4
+kick_multiplier = 1.0
